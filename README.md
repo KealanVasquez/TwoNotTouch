@@ -3,6 +3,8 @@ A puzzle is a string of 100 characters, each character one of the letters from A
 
 The file "BoardUI" is an implementation of the Two Not Touch grid into python, allowing one to find missing logical inferences when the Human Algorithm leaves an instance of the puzzle partially unsolved.
 
+The file "LINGO TNT" is a text file that provides a sample puzzle and its input for LINGO. It can be modified to any other Two Not Touch puzzle by changing the last 10 lines to reflect the region constraints of each respective puzzle. 
+
 The file "LINGO input generator" takes a puzzle and outputs the ten region constraints that can be added to the row, column, and adjacency constraints in a LINGO file. 
 
 The file "Backtracking" solves the puzzles through exhaustion and pruning.
